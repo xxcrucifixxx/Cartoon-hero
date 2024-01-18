@@ -1,0 +1,45 @@
+body{
+	margin: 0;
+}
+
+header{
+	padding-top: 30px;
+	padding-bottom: 10px;
+	background-color: #242423;
+	text-align: center;
+}
+
+header h1{
+	color: #F5CB5C;
+	font-family: fantasy;
+	letter-spacing: 1px;
+	font-weight: normal;
+	font-size: 50px;
+	}
+
+header img{
+	border-radius: 160px;
+    width: 300px;
+    border: 15px solid #F5CB5C;
+}
+
+main{
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 20px 20px;
+}
+
+main img{
+	max-width: 100%;
+}
+
+h2{
+	font-family: fantasy;
+	letter-spacing: 1px;
+	font-weight: normal;
+	font-size: 30px;
+}
+
+p{
+	font-size: 20px;
+}
