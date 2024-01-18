@@ -1,6 +1,7 @@
 body{
 	margin: 0;
-}
+	font-size: 20px;
+	line-height: 25px;
 
 header{
 	padding-top: 30px;
@@ -26,7 +27,7 @@ header img{
 main{
 	max-width: 800px;
 	margin: 0 auto;
-	padding: 0 20px 20px;
+	padding: 20px;
 }
 
 main img{
@@ -38,8 +39,41 @@ h2{
 	letter-spacing: 1px;
 	font-weight: normal;
 	font-size: 30px;
+	margin: 30px 0 10px;
 }
 
-p{
-	font-size: 20px;
+a{
+	color: #f5cb5c;
+}
+
+a:hover{
+	color: #FAE7B2;
+}
+
+footer{
+	background-color: #242423;
+	text-align: center;
+	color: white;
+	padding: 50px;
+}
+
+footer p{
+	margin: 0;
+}
+
+p.caption{
+	text-align: center; 
+	font-size: 15px;
+	margin: 0px;
+}
+
+p.creds{
+	text-align: right;
+	font-size: 15px;
+	margin: 0;
+	font-style: italic;
+}
+
+p.text{
+	text-indent: 30px;
 }
